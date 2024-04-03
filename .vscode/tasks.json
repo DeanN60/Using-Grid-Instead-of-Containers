@@ -7,6 +7,14 @@
 			"problemMatcher": [],
 			"label": "npm: copy",
 			"detail": "npm-run-all --parallel copy:*"
+		},
+		{
+			"type": "npm",
+			"script": "watch",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: watch",
+			"detail": "npm-run-all --parallel watch:*"
 		}
 	]
 }
